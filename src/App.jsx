@@ -14,7 +14,7 @@ const mockData = [
   {
     id: 1,
     isDone: false,
-    content: '빨리하기',
+    content: '빨래하기',
     date: new Date().getTime(),
   },
   {
@@ -44,7 +44,6 @@ function App() {
       <Header />
       <Editor onCreate={onCreate} />
       <List todos={todos} />
-      <div>git hub test</div>
     </div>
   );
 }
